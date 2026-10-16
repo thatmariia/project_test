@@ -13,7 +13,7 @@
   "schema:featureList": ["http://edamontology.org/operation_0337", "http://edamontology.org/operation_2428"],
   "programmingLanguage": [{"@type": "ComputerLanguage", "name": "Python", "version": ">=3.14"}],
   "author": [{"@type": "Person", "name": "Mariia Steeghs-Turchina", "@id": "https://orcid.org/0000-0002-0852-4752", "givenName": "Steeghs-Turchina", "familyName": "Mariia", "email": "m.a.steeghs-turchina@lumc.nl", "affiliation": {"@type": "Organization", "name": "Leiden University Medical Center", "@id": "https://ror.org/05xvt9f17"}}],
-  "identifier": [{"@type": "PropertyValue", "propertyID": "placeholder", "value": "REPLACE_WITH_PERSISTENT_IDENTIFIER"}],
+  "identifier": [{"@type": "PropertyValue", "value": "https://doi.org/10.5281/zenodo.23418951"}],
   "keywords": ["my keyword", "your keyword", "Data visualisation"],
   "codeRepository": "https://github.com/thatmariia/project_test",
   "continuousIntegration": "https://github.com/thatmariia/project_test/actions",
