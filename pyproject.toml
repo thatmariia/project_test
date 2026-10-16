@@ -1,0 +1,66 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "project-test"
+version = "0.1.0"
+description = "This is a description of my project"
+readme = "README.md"
+requires-python = ">=3.14"
+license-files = ["LICENSE"]
+authors = [
+  { name = "Mariia Steeghs-Turchina", email = "m.a.steeghs-turchina@lumc.nl" }]
+dependencies = ["typer"]
+keywords = ["my keyword", "your keyword", "Data visualisation"]
+classifiers = ["Programming Language :: Python :: 3", "Operating System :: OS Independent"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+quality = ["pre-commit", "ruff", "mypy"]
+release = [
+  "build",
+  "packaging",
+  "twine",
+]
+docs = ["zensical", "mkdocstrings[python]"]
+
+[project.scripts]
+"project-test" = "project_test.adapters.cli.app:main"
+
+[project.urls]
+"Source Code" = "https://github.com/thatmariia/project_test"
+Documentation = "https://thatmariia.github.io/project_test/"
+"Release Notes" = "https://github.com/thatmariia/project_test/releases"
+Download = "https://pypi.org/project/project-test/#files"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = [
+  "B",
+  "E",
+  "F",
+  "I",
+  "SIM",
+  "UP",
+]
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.mypy]
+strict = true
+warn_unused_configs = true
+
+[[tool.mypy.overrides]]
+module = [
+  "fastapi.*",
+  "typer.*",
+]
+ignore_missing_imports = true

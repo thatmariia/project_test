@@ -1,0 +1,18 @@
+cff-version: "1.2.0"
+message: "If you use this software, please cite it using the metadata in this file."
+title: "My awesome project"
+type: software
+version: "0.1.0"
+abstract: "This is a description of my project"
+repository-code: "https://github.com/thatmariia/project_test"
+url: "https://thatmariia.github.io/project_test/"
+authors:
+  - family-names: "Mariia"
+    given-names: "Steeghs-Turchina"
+    affiliation: "Leiden University Medical Center"
+    email: "m.a.steeghs-turchina@lumc.nl"
+    orcid: "https://orcid.org/0000-0002-0852-4752"
+keywords:
+  - "my keyword"
+  - "your keyword"
+  - "Data visualisation"

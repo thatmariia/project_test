@@ -1,0 +1,10 @@
+{
+  "title": "My awesome project",
+  "description": "This is a description of my project",
+  "creators": [
+    {"name": "Mariia, Steeghs-Turchina", "affiliation": "Leiden University Medical Center", "orcid": "0000-0002-0852-4752"}
+  ],
+  "upload_type": "software",
+  "access_right": "open",
+  "keywords": ["my keyword", "your keyword", "Data visualisation"]
+}

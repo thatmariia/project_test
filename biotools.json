@@ -1,0 +1,75 @@
+[
+  {
+    "name": "My awesome project",
+    "description": "This is a description of my project",
+    "homepage": "https://thatmariia.github.io/project_test/",
+    "version": [
+      "0.1.0"
+    ],
+    "toolType": [
+      "Library",
+      "Command-line tool",
+      "Script"
+    ],
+    "topic": [
+      {
+        "term": "Data visualisation",
+        "uri": "http://edamontology.org/topic_0092"
+      }
+    ],
+    "language": [
+      "Python"
+    ],
+    "maturity": "Emerging",
+    "cost": "Free of charge",
+    "accessibility": "Open access",
+    "function": [
+      {
+        "operation": [
+          {
+            "term": "Visualisation",
+            "uri": "http://edamontology.org/operation_0337"
+          },
+          {
+            "term": "Validation",
+            "uri": "http://edamontology.org/operation_2428"
+          }
+        ],
+        "input": [
+          {
+            "data": {
+              "term": "JSON"
+            }
+          }
+        ]
+      }
+    ],
+    "link": [
+      {
+        "url": "https://github.com/thatmariia/project_test",
+        "type": [
+          "Repository"
+        ]
+      }
+    ],
+    "documentation": [
+      {
+        "url": "https://thatmariia.github.io/project_test/",
+        "type": [
+          "General"
+        ]
+      }
+    ],
+    "credit": [
+      {
+        "name": "Mariia Steeghs-Turchina",
+        "typeEntity": "Person",
+        "email": "m.a.steeghs-turchina@lumc.nl",
+        "orcidid": "https://orcid.org/0000-0002-0852-4752",
+        "typeRole": [
+          "Developer"
+        ]
+      }
+    ]
+  }
+]
