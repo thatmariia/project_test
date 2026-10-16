@@ -61,7 +61,7 @@ operation:
 input:
 - data:
     term: "JSON"
-    uri: http://edamontology.org/format_3464
+    uri: "http://edamontology.org/data_2042"
 ```
 
 </details>
