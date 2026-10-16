@@ -55,13 +55,13 @@ poetry run python -m project_test
 # biotools-function
 operation:
 - term: "Visualisation"
-  uri: "http://edamontology.org/operation_0337"
+  uri: http://edamontology.org/operation_0337
 - term: "Validation"
-  uri: "http://edamontology.org/operation_2428"
+  uri: http://edamontology.org/operation_2428
 input:
 - data:
     term: "JSON"
-    uri: "http://edamontology.org/format_3464"
+    uri: http://edamontology.org/format_3464
 ```
 
 </details>
